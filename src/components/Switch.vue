@@ -1,7 +1,7 @@
 <script>
 export default {
   name: "Switch",
-  props: ["id"],
+  props: ["id", "checked"],
 };
 </script>
 
@@ -13,6 +13,7 @@ export default {
       :id="id"
       aria-label="Toggle Between Annually and Monthly Pricing"
       @change="$emit('toggle')"
+      :checked="checked"
     />
     <label
       :for="id"

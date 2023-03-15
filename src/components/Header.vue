@@ -21,7 +21,7 @@ export default {
       >
         Annually
       </p>
-      <Switch id="check" @toggle="$emit('toggle')" />
+      <Switch id="check" @toggle="$emit('toggle')" checked="true" />
       <p
         :class="[
           period === 'annually' && 'text-lightGrayishBlue',

@@ -31,7 +31,7 @@ export default {
   },
   data() {
     return {
-      period: "annually",
+      period: "monthly",
       data: planData,
     };
   },
