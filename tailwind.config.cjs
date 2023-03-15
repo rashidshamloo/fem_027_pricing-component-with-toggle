@@ -15,8 +15,8 @@ module.exports = {
         gradientEnd: "hsl(237, 63%, 64%)",
       },
       backgroundImage: {
-        normal: "url('images/bg-top.svg'), url('images/bg-bottom.svg')",
-        small: "url('images/bg-top.svg')",
+        normal: "url('../images/bg-top.svg'), url('../images/bg-bottom.svg')",
+        small: "url('../images/bg-top.svg')",
         button:
           "linear-gradient(to bottom right,hsl(236, 72%, 79%) 0%, hsl(237, 63%, 64%) 50%,white 50%, white 100%)",
         buttonHighlighted:
